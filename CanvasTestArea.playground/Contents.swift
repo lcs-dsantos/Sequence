@@ -47,7 +47,11 @@ canvas.fillColor = Color(hue: 0, saturation: 30, brightness: 100, alpha: 100)
 canvas.drawShapesWithBorders = false
 canvas.drawEllipse(centreX: 100, centreY: 290, width: 50, height: 30)
 canvas.drawEllipse(centreX: 100, centreY: 290, width: 50, height: 30)
+canvas.drawEllipse(centreX: 200, centreY: 290, width: 50, height: 30)
 
+// Draw the nose
+canvas.fillColor=Color.black
+canvas.drawEllipse(centreX: 150, centreY: 250, width: 40, height: 25)
 
 
 // This code is necessary to see the result in the Assistant Editor at right
